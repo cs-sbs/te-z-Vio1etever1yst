@@ -28,6 +28,8 @@ public class NumberFeature {
             bitValue *= 2; // 二进制位值翻倍
         }
 
+        result = inputNumber;
+
         System.out.println(result);
         scanner.close();
     }
